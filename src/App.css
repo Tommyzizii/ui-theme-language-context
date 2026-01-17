@@ -1,0 +1,25 @@
+.app {
+  min-height: 100vh;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+.app.light {
+  background-color: #ffffff;
+  color: #333333;
+}
+
+.app.dark {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.app.dark button {
+  background-color: #555;
+  color: white;
+  border: 1px solid #777;
+}
+
+button {
+  margin: 0px 10px;
+}
